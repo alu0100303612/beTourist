@@ -1,0 +1,13 @@
+{
+  "beacons":[
+    {
+      "Name":"Namespace1",
+      "Namespace": "f7826da6bc5b71e0893e",
+      "Instance_ID": "4f5330736255"
+    },
+    {
+      "Name": "Namespace2",
+      "Namespace":
+    }
+  ]
+}

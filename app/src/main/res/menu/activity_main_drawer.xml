@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/ic_map_menu_rojo"
+            android:title="@string/menu_map" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_config_user_menu_violet"
+            android:title="@string/menu_preferences"
+            />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_information_verde_azul"
+            android:title="@string/menu_about"
+            android:tint="@color/colorBlueGreen"
+            />
+    </group>
+</menu>

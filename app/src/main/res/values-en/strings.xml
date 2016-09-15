@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">beTourist App</string>
+    <string name="kontakt_io_api_key">yxeSKyKOvlPCAWOMxPonBExqNJXhqbSH</string>
+
+    <!-- ABOUT ACTIVITY -->
+    <string name="about">ABOUT</string>
+    <string name="about_description">  This application represents the TFG of student Bianney Cabrera Delgado. With its implementation, it is to get knowledge of the mobile applications development that integrate beacon technology</string>
+    <string name="contact">Contact: </string>
+    <string name="mail">alu0100303612@ull.edu.es</string>
+
+    <!-- HISTORICAL & NATURAL -->
+    <string name="historical_monuments">Historical monuments</string>
+    <string name="natural_monuments">Natural monuments</string>
+    <string name="historical">Historical Monument</string>
+    <string name="natural">Natural Monument</string>
+    <string name="description">Description: </string>
+    <string name="town">Town: </string>
+    <string name="address">Address: </string>
+    <string name="monument_contact">Contact: </string>
+    <string name="notAvailable">Not available</string>
+
+    <!-- NATURAL -->
+    <string name="difficulty">Difficulty: </string>
+    <string name="dangerousness">Dangerousness: </string>
+
+    <!-- MENU -->
+    <string name="menu_map">Map of Monuments</string>
+    <string name="menu_preferences">Preferences</string>
+    <string name="menu_about">About</string>
+
+    <!-- MAPS -->
+    <string name="title_activity_maps">Map</string>
+
+
+
+
+    <string name="action_settings">Settings</string>
+</resources>

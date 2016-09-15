@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/li_monument"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txt_name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13sp"
+                android:layout_marginLeft="4sp"
+                android:layout_marginRight="4sp"
+                android:clickable="false"
+                android:text="@string/historical_monuments"
+                android:textSize="65dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlueGreen"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/li_img"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_below="@+id/li_monument"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/img_monument"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:clickable="true"
+                android:gravity="center"
+                android:src="@drawable/historical2"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/li_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/li_img"
+            android:layout_marginTop="7dp">
+
+            <ImageView
+                android:id="@+id/img_description"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="11dp" />
+
+            <TextView
+                android:id="@+id/txt_description"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:textSize="16dp"
+                android:layout_marginTop="4sp"
+                android:paddingLeft="5dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/li_description_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/li_description"
+            android:layout_marginTop="7dp">
+
+            <ImageView
+                android:id="@+id/img_description_two"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="11dp" />
+
+            <TextView
+                android:id="@+id/txt_description_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:textSize="16dp"
+                android:layout_marginTop="4sp"
+                android:paddingLeft="5dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/li_description_three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/li_description_two"
+            android:layout_marginTop="7dp">
+            <ImageView
+                android:id="@+id/img_description_three"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="11dp" />
+
+            <TextView
+                android:id="@+id/txt_description_three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:textSize="16dp"
+                android:layout_marginTop="4sp"
+                android:paddingLeft="5dp"/>
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

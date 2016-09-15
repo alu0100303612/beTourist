@@ -1,0 +1,107 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:paddingBottom="@dimen/activity_vertical_margin"
+android:paddingLeft="@dimen/activity_horizontal_margin"
+android:paddingRight="@dimen/activity_horizontal_margin"
+android:paddingTop="@dimen/activity_vertical_margin"
+tools:context="com.example.bianney.myapplication.ConfigurationActivity">
+
+<TextView
+    android:id="@+id/txt_title"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="13sp"
+    android:layout_marginLeft="4sp"
+    android:layout_marginRight="4sp"
+    android:clickable="false"
+    android:text="Preferencias"
+    android:gravity="center"
+    android:textStyle="bold"
+    android:textSize="85dp"
+    android:textColor="@color/colorBlueGreen" />
+
+<LinearLayout
+    android:id="@+id/li_about"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/txt_title">
+
+    <TextView
+        android:id="@+id/txt_about"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13sp"
+        android:layout_marginLeft="4sp"
+        android:layout_marginRight="4sp"
+        android:clickable="false"
+        android:text="Seleccione alguno de los siguientes iconos si desea habilitar la personalización de los monumentos"
+        android:textSize="18dp"
+        android:textColor="#000000" />
+</LinearLayout>
+
+<LinearLayout
+    android:id="@+id/li_icon_firstLine"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/li_about"
+    android:orientation="horizontal"
+    android:layout_marginTop="13sp"
+    android:layout_marginLeft="4sp"
+    android:layout_marginRight="4sp">
+    <ImageView
+        android:id="@+id/interes_arte"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@drawable/interes_arte_disable"
+        android:layout_marginTop="7sp"
+        android:layout_marginLeft="15sp"/>
+    <ImageView
+        android:id="@+id/interes_agua"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@drawable/interes_agua_disable"
+        android:layout_marginTop="7sp"
+        android:layout_marginLeft="70sp"/>
+    <ImageView
+        android:id="@+id/interes_historia"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@drawable/interes_historia_disable"
+        android:layout_marginTop="7sp"
+        android:layout_marginLeft="70sp"/>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/li_icon_firstLine"
+        android:orientation="horizontal"
+        android:layout_marginTop="13sp"
+        android:layout_marginLeft="4sp"
+        android:layout_marginRight="4sp">
+
+        <ImageView
+            android:id="@+id/interes_mirador"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/interes_mirador_disable"
+            android:layout_marginTop="7sp"
+            android:layout_marginLeft="15sp"/>
+        <ImageView
+            android:id="@+id/interes_montana"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/interes_montana_disable"
+            android:layout_marginTop="7sp"
+            android:layout_marginLeft="70sp"/>
+        <ImageView
+            android:id="@+id/interes_religion"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/interes_religion_disable"
+            android:layout_marginTop="7sp"
+            android:layout_marginLeft="70sp"/>
+
+    </LinearLayout>
+</RelativeLayout>

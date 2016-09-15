@@ -1,0 +1,14 @@
+{
+	"lista":[
+		{
+			"descripcion1": "HISTORICA",
+			"descripcion2": "RELIGIOSA",
+			"descripcion3": "ARTISTICA",
+		},
+		{
+			"descripcion1": "MAR"
+			"descripcion2": "MIRADOR"
+			"descripcion3": "MONTAÑA"
+		}
+	]
+}
